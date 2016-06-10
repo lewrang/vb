@@ -1,0 +1,27 @@
+{
+  "name": "quotes-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://sabinacyz@bitbucket.org/revolve-it/quotes-server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/revolve-it/quotes-server#readme",
+  "dependencies": {
+    "body-parser": "^1.15.1",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.13.4",
+    "fs": "0.0.2",
+    "multer": "^1.1.0",
+    "path": "^0.12.7",
+    "pg": "^5.0.0",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^3.23.3"
+  }
+}
